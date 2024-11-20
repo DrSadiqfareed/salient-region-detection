@@ -40,7 +40,7 @@ pip install numpy opencv-python scikit-image scipy matplotlib
 
 Usage
 Clone the repository:
-git clone https://github.com/yourusername/salient-region-detection.git
+git clone https://github.com//DrSadiqfareed/salient-region-detection.git
 cd salient-region-detection
 Place your input image in the project directory. For example, save it as example_image.jpg.
 
