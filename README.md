@@ -51,30 +51,39 @@ View the resulting saliency map:
 The output will display the heatmap of the saliency map.
 
 File Structure
+
 ├── salient_region_detection.py  # Main saliency detection script
 ├── example_image.jpg            # Example input image
 ├── README.md                    # Documentation
+
 Example Output
 Input Image
+
 
 Saliency Map
 
 Algorithm Workflow
+
 Input Image: The image is processed for salient region detection.
 
 Superpixel Segmentation: The image is divided into meaningful regions using the SLIC algorithm.
 
 Sparse Saliency:
+
 Saliency is computed as the contrast between superpixels and boundary regions.
 
 Graph-Based Ranking:
+
 A Laplacian matrix is computed, and saliency values are refined via eigen decomposition.
 
 Bayesian Integration:
+
 Sparse and graph-based saliency maps are fused into a unified saliency map.
 
 Visualization: The final saliency map is displayed as a heatmap.
 
 Citation
+
 If you use this code, please cite the original paper:
+
 M. M. Sadiq Fareed et al., "Salient region detection through sparse reconstruction and graph-based ranking," Journal of Visual Communication and Image Representation, 2015.
